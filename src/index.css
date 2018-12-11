@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+
+header {
+  height: 85px;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-color: rgb(46, 46, 46);
+  color: #fff;
+  border-bottom: 3px solid rgb(128, 128, 128);
+  display: flex;
+  justify-content: space-between;
+}
+
+header .head-right-container {
+  
+  margin: 15px 20px 0 0;
+  
+}
+
+header .head-right-container .head-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .head-right-container .head-text h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 0px 5px 10px rgb(26, 26, 26);
+  color: #fff3db;
+  width: 250px;
+  text-align: center;
+}
+
+header .head-right-container .head-text .egypt-pin {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 35px;
+  
+  
+}
+
+header .hamburger-icon {
+  margin-top: -20px;
+  
+}
+
+header .hamburger-icon .key-icon {
+  background-color: #27b19a;
+  background-position: center;
+  padding: 30px 30px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 35px;
+  height: 45px;
+  background-image: url("images/menu-btn.png");
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 50px rgb(26, 26, 26);
+  border: none;
+  color: #27b19a;
+}
+
+header .key-icon:hover {
+  background-color: #4aacda;
+}
+
+header .hamburger-icon {
+  padding: 35px 0 10px 50px;
+}
+
+
+header .hamburger-icon .openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #ebbb2c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header .hamburger-icon .openbtn:hover {
+  background-color: #dfc67a;
+}
+
+
+.main-page {
+  display: flex;
+  
+}
+
+.right-section {
+  width: 100%;
+  transition: 0.5s;
+}
+
+
+aside {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  background-color: rgb(37, 37, 37);
+  color: #fff;
+  width: 0;
+  box-shadow: 3px 10px 30px #333;
+  overflow-x: hidden;
+
+  transition: 0.5s;
+}
+
+aside .filter-section {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 80px;
+  
+}
+
+
+
+aside .filter-section input {
+  height: 46px;
+  width: 100%;
+  padding: 3px 3px 3px 8px;
+  background:none;
+  border: 2px solid #f7ad1c;
+  color: #ffe0a3;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+
+aside .filter-section input:focus {
+  border: 2px solid #ffc041;
+}
+
+
+aside .filter-section input:active {
+  border: 2px solid #ffc041;
+}
+
+
+aside .list {
+  margin-top: 20px;
+  
+}
+
+aside .list .list-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+}
+
+aside .list .list-links li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(196, 196, 196);
+  padding: 15px 20px;
+  font-size: 14px;
+  border: 1px solid rgb(43, 43, 43);
+  cursor: pointer;
+  
+}
+
+aside .list .list-links li a:hover {
+  background-color: rgb(43, 43, 43);
+  color: #ffeabf;
+  
+  
+}
+
+aside .close .closebtn {
+  margin: 15px 0;
+  padding: 1px 10px;
+  border-radius: 50%;
+}
+
+aside .close .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 32px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(70, 70, 70);
+  border: 1px solid rgb(85, 85, 85);
+  cursor: pointer;
+}
+
+
+aside .close .closebtn:hover {
+  background-color: #333;
+}
+
+aside .pharaoh {
+  width: 50px;
+  height: 60px;
+}
+
+aside .pharaoh .pharaoh-img {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  width: 61px;
+  height: 120px;
+}
+
+section {
+  background-color: brown;
+  height: calc(100vh - 90px);
+  
+}
+
+.containerElement {
+  height: 100%;
+}
+
+.mapElement {
+  height: 100%;
+}
+
+.loadingElement {
+  height: 100%;
+}
+
+.info-window {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.info-window h1 {
+  color: darkslategrey;
+  font-size: 20px;
+}
+
+.info-window a {
+  color: darkblue;
+}
+
+.info-window a:hover {
+  color: peru;
+}
+
+.info-window p span {
+  color: rgba(235, 130, 10, 0.87);
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 560px) {
+
+  header .head-right-container .head-text .egypt-pin {
+    display: none;
+  }
+
+
+
+}
